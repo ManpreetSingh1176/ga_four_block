@@ -1,4 +1,4 @@
-connection: "@{GA4_CONNECTION}"
+connection: "google_analytics"
 
 label: "Google Analytics 4"
 
