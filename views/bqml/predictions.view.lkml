@@ -56,7 +56,7 @@ view: testing_input {
 
 view: future_purchase_model {
   derived_table: {
-    datagroup_trigger: ga4_default_datagroup #bqml_datagroup
+    datagroup_trigger: bqml_datagroup #ga4_default_datagroup
     sql_create:
       CREATE OR REPLACE MODEL ${SQL_TABLE_NAME}
       OPTIONS(model_type='logistic_reg'
