@@ -70,7 +70,6 @@ view: future_purchase_model {
 
 ######################## TRAINING INFORMATION #############################
 explore:  future_purchase_model_evaluation {}
-#explore:  future_purchase_model {}
 explore: future_purchase_model_training_info {}
 explore: roc_curve {}
 
