@@ -17,11 +17,11 @@ view: training_input {
       column: will_purchase_in_future {}
       filters: {
         field: sessions.session_date
-        value: "180 days ago for 90 days"
+        value: "60 days ago for 30 days"
       }
       filters: {
         field: sessions.prediction_window_days
-        value: "60"
+        value: "30"
       }
     }
   }
@@ -43,11 +43,11 @@ view: testing_input {
       column: will_purchase_in_future {}
       filters: {
         field: sessions.session_date
-        value: "130 days ago for 90 days"
+        value: "60 days ago for 30 days"
       }
       filters: {
         field: sessions.prediction_window_days
-        value: "60"
+        value: "30"
       }
     }
   }
