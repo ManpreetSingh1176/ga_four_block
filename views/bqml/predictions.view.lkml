@@ -17,7 +17,7 @@ view: training_input {
       column: will_purchase_in_future {}
       filters: {
         field: sessions.session_date
-        value: "60 days ago for 30 days"
+        value: "30 days ago for 30 days"
       }
       filters: {
         field: sessions.prediction_window_days
@@ -43,7 +43,7 @@ view: testing_input {
       column: will_purchase_in_future {}
       filters: {
         field: sessions.session_date
-        value: "60 days ago for 30 days"
+        value: "30 days ago for 30 days"
       }
       filters: {
         field: sessions.prediction_window_days
@@ -179,7 +179,7 @@ view: future_input {
       column: total_first_visit_sessions {}
       filters: {
         field: sessions.session_date
-        value: "360 days"
+        value: "30 days"
       }
     }
   }
